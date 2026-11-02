@@ -1,0 +1,17 @@
+# KiCad temporary files
+*.bak
+*.kicad_prl
+*-bak
+*-backups/
+_autosave-*
+
+# KiCad simulation
+*.sp
+*.spice
+
+# local settings
+*.kicad_user
+
+# KiCad zipped backups
+kicad_schematic/*.zip
+kicad_schematic/.history/
