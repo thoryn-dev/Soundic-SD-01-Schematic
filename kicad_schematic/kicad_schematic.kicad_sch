@@ -2790,7 +2790,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "89b0f1d6-533e-47d8-a5ff-e4038715eb8d")
-		(property "Sheetname" "RF-Stage"
+		(property "Sheetname" "RF-Stage VHF"
 			(at 20.32 50.0884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2801,7 +2801,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "RF-Stage.kicad_sch"
+		(property "Sheetfile" "RF-Stage VHF.kicad_sch"
 			(at 20.32 55.1946 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2908,6 +2908,52 @@
 			(project "kicad_schematic"
 				(path "/6b25c4a1-a124-42b5-97fb-bdfda89dc2e6"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 20.32 60.96)
+		(size 55.88 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ee52ebeb-6742-4ae7-af70-96adc076b493")
+		(property "Sheetname" "RF-Stage UHF"
+			(at 20.32 60.2484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "RF-Stage UHF.kicad_sch"
+			(at 20.32 65.3546 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "kicad_schematic"
+				(path "/6b25c4a1-a124-42b5-97fb-bdfda89dc2e6"
+					(page "6")
 				)
 			)
 		)
