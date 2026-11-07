@@ -35,8 +35,9 @@ Because this Hong Kong-manufactured PCB was widely exported and rebranded, this 
 ## 📁 Repository Structure
 
 * `/kicad_schematic/` - Complete schematic files designed with KiCad E.D.A. (v10.0 or later).
-* `/pdf/` - Exported PDF schematics and Layout for easy viewing.
-* `/pictures/` - Photographs of the main PCB featuring an annotated component placement guide, tracks, and descriptions created via Inkscape to simplify orientation and signal tracing on the real board.
+* `/pdfs/` - Exported PDF schematics and Layout for easy viewing.
+* `/pictures/` - Photographs of the console, the main PCB and switch PCB and some details.
+* `/vector graphics` - Photographs of the main and switch PCB featuring an annotated component placement guide created via Inkscape to simplify orientation and signal tracing on the real board.
 * `/curves/` - Reference oscillograms captured during troubleshooting and calibration.
 
 **Note on component designations:** I made every effort to read all original component designations directly from the circuit board. Unfortunately, some labels were duplicated, and others were completely illegible due to being hidden underneath components or obscured by sealing wax. In these cases, designations were assigned using logical deduction. Notes have been added to the schematic wherever a component name had to be inferred or substituted.
