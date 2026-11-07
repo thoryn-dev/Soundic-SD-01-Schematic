@@ -5,7 +5,7 @@
 	(uuid "6b25c4a1-a124-42b5-97fb-bdfda89dc2e6")
 	(paper "A4")
 	(title_block
-		(title "Pong Game Console Color (PAL)")
+		(title "TVS SD-01 PAL Color Console (Pong Clone)")
 		(date "2026-10-30")
 		(rev "1.0")
 		(company "Soundic")
