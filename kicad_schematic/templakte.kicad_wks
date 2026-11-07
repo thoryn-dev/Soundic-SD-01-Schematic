@@ -1,0 +1,273 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "10.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 110 34)
+		(end 2 2)
+		(comment "rect around the title block")
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 30 2 ltcorner)
+		(end 30 0 ltcorner)
+		(repeat 30)
+		(incrx 30)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 15 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 30)
+	)
+	(line
+		(name "")
+		(start 30 2 lbcorner)
+		(end 30 0 lbcorner)
+		(repeat 30)
+		(incrx 30)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 15 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 30)
+	)
+	(line
+		(name "")
+		(start 2 30 ltcorner)
+		(end 0 30 ltcorner)
+		(repeat 30)
+		(incry 30)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 15 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 30)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 15 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 30)
+	)
+	(tbtext "${ISSUE_DATE}"
+		(name "")
+		(pos 19 9.5002)
+	)
+	(line
+		(name "")
+		(start 110 5.0002)
+		(end 2 5.0002)
+	)
+	(tbtext "${KICAD_VERSION}"
+		(name "")
+		(pos 86.5 9.5002)
+		(comment "Kicad version")
+	)
+	(line
+		(name "")
+		(start 110 8.0002)
+		(end 2 8.0002)
+	)
+	(tbtext "Size:"
+		(name "")
+		(pos 109 9.5)
+		(comment "Paper format name")
+	)
+	(tbtext "Page:"
+		(name "")
+		(pos 26.5 3.5002)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 110 11.0002)
+		(end 2 11.0002)
+	)
+	(tbtext "Title: ${TITLE}"
+		(name "")
+		(pos 109 13.5002)
+		(font
+			(size 2 2) bold italic)
+	)
+	(tbtext "${FILENAME}"
+		(name "")
+		(pos 100 3.5002)
+	)
+	(tbtext "${SHEETPATH}"
+		(name "")
+		(pos 100 6.5002)
+	)
+	(tbtext "${COMPANY}"
+		(name "")
+		(pos 109 31.0002)
+		(font bold)
+		(comment "Company name")
+	)
+	(tbtext "Author: ${COMMENT1}"
+		(name "")
+		(pos 60.5 9.5002)
+		(comment "Comment 0")
+	)
+	(tbtext "${COMMENT4}"
+		(name "")
+		(pos 109 26.5002)
+		(comment "Comment 3")
+	)
+	(line
+		(name "")
+		(start 26.989 11.0022)
+		(end 26.989 2.0022)
+	)
+	(tbtext "Sheet:"
+		(name "")
+		(pos 109 6.5002)
+	)
+	(tbtext "File:"
+		(name "")
+		(pos 109 3.5002)
+	)
+	(line
+		(name "")
+		(start 100.989 11.0022)
+		(end 100.989 2.0022)
+	)
+	(line
+		(name "")
+		(start 109.989 16.0022)
+		(end 1.989 16.0022)
+	)
+	(tbtext "Rev:"
+		(name "")
+		(pos 26.489 6.5022)
+	)
+	(line
+		(name "")
+		(start 109.989 28.0022)
+		(end 1.989 28.0022)
+	)
+	(line
+		(name "")
+		(start 51.989 31.0022)
+		(end 1.989 31.0022)
+	)
+	(line
+		(name "")
+		(start 51.989 34.0022)
+		(end 51.989 28.0022)
+	)
+	(tbtext "${COMMENT5}"
+		(name "")
+		(pos 108.989 23.5022)
+		(comment "Comment 3")
+	)
+	(line
+		(name "")
+		(start 86.989 11.0022)
+		(end 86.989 8.0022)
+	)
+	(line
+		(name "")
+		(start 60.989 11.0022)
+		(end 60.989 8.0022)
+	)
+	(tbtext "${COMMENT6}"
+		(name "")
+		(pos 108.989 20.502)
+		(comment "Comment 3")
+	)
+	(tbtext "${COMMENT7}"
+		(name "")
+		(pos 108.989 17.502)
+		(comment "Comment 3")
+	)
+	(tbtext "${COMMENT2}"
+		(name "")
+		(pos 33.489 32.5022)
+		(comment "Comment 2")
+	)
+	(tbtext "Project No.:"
+		(name "")
+		(pos 51.489 32.5022)
+		(comment "Comment 2")
+	)
+	(tbtext "Schematic No.:"
+		(name "")
+		(pos 51.489 29.5022)
+		(comment "Comment 1")
+	)
+	(tbtext "${COMMENT3}"
+		(name "")
+		(pos 33.489 29.5022)
+		(comment "Comment 1")
+	)
+	(line
+		(name "")
+		(start 33.989 34.0022)
+		(end 33.989 28.0022)
+	)
+	(tbtext "Date:"
+		(name "")
+		(pos 26.489 9.5022)
+	)
+	(tbtext "${REVISION}"
+		(name "")
+		(pos 18.989 6.5022)
+	)
+	(tbtext "${#}/${##}"
+		(name "")
+		(pos 18.989 3.5022)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 19.489 11.0022)
+		(end 19.489 2.0022)
+	)
+	(tbtext "${PAPER}"
+		(name "")
+		(pos 99.989 9.5022)
+		(comment "Paper format name")
+	)
+	(line
+		(name "")
+		(start 2 30 rtcorner)
+		(end 0 30 rtcorner)
+		(repeat 30)
+		(incry 30)
+	)
+)

@@ -448,7 +448,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "kicad-embed://Zeichnungsblatt_V1.1.kicad_wks",
+    "page_layout_descr_file": "kicad-embed://template.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,

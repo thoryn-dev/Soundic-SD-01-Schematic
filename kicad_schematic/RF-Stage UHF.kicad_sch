@@ -9,11 +9,11 @@
 		(date "2026-10-30")
 		(rev "1.0")
 		(company "Soundic")
-		(comment 1 "Manuel Fiedler")
+		(comment 1 "M. Fiedler")
 		(comment 2 "TVG-SD-01")
-		(comment 4 "Main PCB: P/N 11-00164-03")
-		(comment 5 "Switch PCB: P/N 11-00036-20")
-		(comment 6 "The reverse engineering was performed on a console with serial number 16")
+		(comment 4 "Main PCB: P/N 11-00164-03, Switch PCB: P/N 11-00036-20")
+		(comment 5 "The reverse engineering was performed on a console with serial number 16")
+		(comment 7 "This document is licensed unter CC0 1.0 Universal")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
