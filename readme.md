@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/License:-CC0%201.0%20Universal-lightgrey)
+
 # Soundic TV Sports (SD-01) Pong Console - Full Schematic & Reverse Engineering
 
 This repository contains the complete and verified schematic diagram for the **Soundic TV Sports (Model SD-01)** PAL color video game console, released in 1977.
@@ -58,7 +60,7 @@ This is an open-source hardware preservation project, and your help is highly ap
 
 ### License
 
-This documentation and the KiCad schematic files are dedicated to the public domain under the **CC0 1.0 Universal (CC0 1.0) Public Domain Dedication**. You can copy, modify, and distribute this work, even for commercial purposes, all without asking permission.
+This documentation, the photos and the KiCad schematic files are dedicated to the public domain under the **CC0 1.0 Universal (CC0 1.0) Public Domain Dedication**. You can copy, modify, and distribute this work, even for commercial purposes, all without asking permission.
 
 ### Legal & Copyright Disclaimer
 

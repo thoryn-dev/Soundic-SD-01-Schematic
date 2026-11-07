@@ -13,6 +13,7 @@
 		(comment 2 "TVG-SD-01")
 		(comment 4 "Main PCB: P/N 11-00164-03")
 		(comment 5 "Switch PCB: P/N 11-00036-20")
+		(comment 6 "The reverse engineering was performed on a console with serial number 16")
 	)
 	(lib_symbols
 		(symbol "4xxx:4069"
@@ -2504,6 +2505,17 @@
 		)
 		(uuid "ae8f345a-7d82-478d-a3c5-9e678670badc")
 	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 227.33 106.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 194 1)
+			)
+		)
+		(uuid "53576801-aa30-433c-9c68-ba7330eeb86c")
+	)
 	(text "6.4V DC"
 		(exclude_from_sim no)
 		(at 255.905 108.585 0)
@@ -2525,6 +2537,18 @@
 			)
 		)
 		(uuid "924ca7b9-bd74-4e27-8860-dca42600c198")
+	)
+	(text "Note 2: Transistor Q1 was only\nmarked 8050 on its casing. It was\ninitially assumed to be the\nFairchild SS8050 with pinout EBC.\nHowever, the pin layout was\ndifferent. Research suggests it\nis most likely the Asian clone\nUTC8050S (pinout ECB). This must\nbe taken into account when\ntroubleshooting or replacing\nthe transistor."
+		(exclude_from_sim no)
+		(at 232.41 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 194 1)
+			)
+			(justify left)
+		)
+		(uuid "9a5ca2f9-1e1c-4b7b-9a79-363a4517b67f")
 	)
 	(junction
 		(at 83.82 142.24)
@@ -2975,6 +2999,17 @@
 			(type default)
 		)
 		(uuid "28bcceaa-a9f9-4ed5-a160-24fb600e8dd0")
+	)
+	(polyline
+		(pts
+			(xy 224.79 107.95) (xy 229.87 107.95)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "29f716c7-3ba9-4376-983a-cd406e161eb5")
 	)
 	(wire
 		(pts
@@ -3637,6 +3672,17 @@
 		)
 		(uuid "a9274d75-77b4-4dcd-9378-0a86af2f5086")
 	)
+	(polyline
+		(pts
+			(xy 224.79 107.95) (xy 227.33 103.505)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "a9d2d662-51f8-4250-961b-99df7e044644")
+	)
 	(wire
 		(pts
 			(xy 173.99 77.47) (xy 171.45 77.47)
@@ -3876,6 +3922,17 @@
 			(type default)
 		)
 		(uuid "ecd6dc9e-f6ef-44a0-ba84-f160bc6dd820")
+	)
+	(polyline
+		(pts
+			(xy 227.33 103.505) (xy 229.87 107.95)
+		)
+		(stroke
+			(width 0.254)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "f0fc9449-272b-432b-96d5-a432e53f8ae6")
 	)
 	(wire
 		(pts

@@ -1,3 +1,6 @@
+# exclude private folder
+private/
+
 # KiCad temporary files
 *.bak
 *.kicad_prl

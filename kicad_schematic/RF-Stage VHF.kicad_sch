@@ -13,6 +13,7 @@
 		(comment 2 "TVG-SD-01")
 		(comment 4 "Main PCB: P/N 11-00164-03")
 		(comment 5 "Switch PCB: P/N 11-00036-20")
+		(comment 6 "The reverse engineering was performed on a console with serial number 16")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
@@ -1780,6 +1781,12 @@
 		(uuid "f54aad93-1388-4d17-9bab-1ba1fef5c698")
 	)
 	(junction
+		(at 170.18 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02702a99-1465-4923-8c88-523916f036aa")
+	)
+	(junction
 		(at 200.66 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2202,6 +2209,16 @@
 			(type default)
 		)
 		(uuid "4eb5a399-e037-4ba3-b89d-73c204352fd1")
+	)
+	(wire
+		(pts
+			(xy 170.18 113.03) (xy 177.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5371ae-b656-450a-a659-65617055ac98")
 	)
 	(wire
 		(pts
@@ -4372,6 +4389,30 @@
 			"VTlcqnK4VOVwqcrhUu2G0dWobAAAAHRJREFUD/CCdDgcDofjz8dPvCBff9u/36+vw6Uqh0tVDpeq"
 			"HC5VOVyqchyCVM4gHQ6Hw+EYgb8gHQ6Hw+EYQR7F+uskcTgcDofj14NRrMkL0uFwOBwOh8BNrA6H"
 			"w+FwjMBfkA6Hw+FwjMBfkA6Hw+FwjOD/A4NPAIJMu4T0AAAAAElFTkSuQmCC"
+		)
+	)
+	(global_label "COMPOSITE"
+		(shape output)
+		(at 177.8 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0100fb3f-2370-4745-b132-8541887dca29")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.3685 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
 		)
 	)
 	(global_label "LUMINANCE"

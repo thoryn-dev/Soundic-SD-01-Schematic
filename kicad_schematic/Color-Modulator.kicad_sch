@@ -13,6 +13,7 @@
 		(comment 2 "TVG-SD-01")
 		(comment 4 "Main PCB: P/N 11-00164-03")
 		(comment 5 "Switch PCB: P/N 11-00036-20")
+		(comment 6 "The reverse engineering was performed on a console with serial number 16")
 	)
 	(lib_symbols
 		(symbol "4xxx:4069"

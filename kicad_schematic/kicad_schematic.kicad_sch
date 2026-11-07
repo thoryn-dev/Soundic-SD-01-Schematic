@@ -13,6 +13,7 @@
 		(comment 2 "TVG-SD-01")
 		(comment 4 "Main PCB: P/N 11-00164-03")
 		(comment 5 "Switch PCB: P/N 11-00036-20")
+		(comment 6 "The reverse engineering was performed on a console with serial number 16")
 	)
 	(lib_symbols)
 	(rectangle
@@ -2600,7 +2601,7 @@
 				)
 				(uuid "01969fee-5c77-4f32-9029-a09cf2a7324b")
 			)
-			(table_cell "Circuit Note"
+			(table_cell "Component or\nCircuit Note"
 				(exclude_from_sim no)
 				(at 101.6 53.34 0)
 				(size 24.13 6.35)
